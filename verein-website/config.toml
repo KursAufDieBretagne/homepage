@@ -1,0 +1,50 @@
+baseurl = "http://localhost:1313/"
+title = "Kurs auf die Bretagne"
+theme = "mainroad"
+defaultContentLanguage = "de"
+
+[params]
+  # Diese Sektionen werden im "Recent Posts" Widget angezeigt
+  mainSections = ["blog", "posts"]
+
+  # Wir definieren die Widgets doppelt (als 'widgets' und 'sidebar_widgets'),
+  # um sicherzugehen, dass das Theme sie findet
+  widgets = ["search", "recent", "languages"]
+  sidebar_widgets = ["search", "recent", "languages"]
+
+[params.sidebar]
+  home = "right"
+  list = "right"
+  single = "right"
+
+[languages]
+  [languages.de]
+    languageName = "Deutsch"
+    contentDir = "content/de"
+    weight = 1
+    title = "Kurs auf die Bretagne"
+  [languages.fr]
+    languageName = "Français"
+    contentDir = "content/fr"
+    weight = 2
+    title = "Cap vers la Bretagne"
+
+[languages.de.menu]
+  [[languages.de.menu.main]]
+    name = "Startseite"
+    url = "/"
+    weight = 1
+  [[languages.de.menu.main]]
+    name = "Über uns"
+    url = "/about/"
+    weight = 2
+
+[languages.fr.menu]
+  [[languages.fr.menu.main]]
+    name = "Accueil"
+    url = "/fr/"
+    weight = 1
+  [[languages.fr.menu.main]]
+    name = "À propos"
+    url = "/fr/about/"
+    weight = 2

@@ -1,0 +1,6 @@
+[submodule "verein-website/themes/ananke"]
+	path = verein-website/themes/ananke
+	url = https://github.com/theNewDynamic/gohugo-theme-ananke.git
+[submodule "verein-website/themes/mainroad"]
+	path = verein-website/themes/mainroad
+	url = https://github.com/Vimux/Mainroad.git
