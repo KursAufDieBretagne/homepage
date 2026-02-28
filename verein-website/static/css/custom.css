@@ -1,0 +1,30 @@
+/* Maritimes Branding: Stralsund & Saint-Malo */
+
+/* Der obere Balken (Header) in Marineblau mit Gold-Akzent */
+.header {
+    background-color: #003b6f; /* Marineblau */
+    border-bottom: 4px solid #d4af37; /* Gold */
+}
+
+/* Titel der Webseite in Gold */
+.logo__title {
+    color: #d4af37 !important;
+}
+
+/* Menü-Links im Header in Weiß (für guten Kontrast auf Blau) */
+.menu__link {
+    color: #ffffff !important;
+}
+
+/* Menü-Links beim Drüberfahren (Hover) in Gold */
+.menu__link:hover {
+    color: #d4af37 !important;
+}
+
+/* Normale Text-Links im Inhalt in Blau, Hover in Gold */
+a {
+    color: #003b6f;
+}
+a:hover {
+    color: #d4af37;
+}
