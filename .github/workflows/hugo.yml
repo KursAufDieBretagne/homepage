@@ -5,7 +5,6 @@ on:
     branches:
       - main
 
-# NEU: Wir geben GitHub ausdrücklich die Erlaubnis, die Website hochzuladen
 permissions:
   contents: write
 
@@ -26,11 +25,11 @@ jobs:
           extended: true
 
       - name: Build Hugo Site
-        # NEU: Wir fügen -F an, damit zukünftige Termine den Build nicht stoppen
         run: hugo --minify -F
+        working-directory: ./verein-website
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
+          publish_dir: ./verein-website/public
