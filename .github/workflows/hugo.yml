@@ -3,7 +3,11 @@ name: Deploy Hugo Site to GitHub Pages
 on:
   push:
     branches:
-      - main      # Falls dein Hauptbranch noch 'master' heißt, ändere dies zu 'master'
+      - main
+
+# NEU: Wir geben GitHub ausdrücklich die Erlaubnis, die Website hochzuladen
+permissions:
+  contents: write
 
 jobs:
   deploy:
@@ -12,17 +16,18 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v3
         with:
-          submodules: true  # Wichtig, damit das Mainroad-Theme mitgeladen wird
+          submodules: true
           fetch-depth: 0
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: '0.102.3' # Deine passgenaue Catalina-Version
+          hugo-version: '0.102.3'
           extended: true
 
       - name: Build Hugo Site
-        run: hugo --minify
+        # NEU: Wir fügen -F an, damit zukünftige Termine den Build nicht stoppen
+        run: hugo --minify -F
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
