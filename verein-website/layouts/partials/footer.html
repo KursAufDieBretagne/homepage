@@ -1,0 +1,13 @@
+<footer class="footer">
+	<div class="container footer__container flex">
+		<div class="footer__copyright">
+			&copy; {{ now.Format "2006" }} {{ .Site.Params.copyright | default .Site.Title }}.
+			<span class="footer__copyright-credits">{{ T "footer_credits" | safeHTML }}</span>
+		</div>
+		<div class="footer__links" style="margin-left: auto;">
+			{{ range .Site.Menus.footer }}
+				<a href="{{ .URL | relLangURL }}" style="margin-left: 15px; color: inherit; text-decoration: none;">{{ .Name }}</a>
+			{{ end }}
+		</div>
+	</div>
+</footer>

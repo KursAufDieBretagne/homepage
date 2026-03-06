@@ -46,15 +46,6 @@ defaultContentLanguage = "de"
   url = "/kontakt/"
   weight = 4
 
-[[languages.de.menu.main]]
-  name = "Impressum"
-  url = "/impressum/"
-  weight = 5
-
-[[languages.de.menu.main]]
-  name = "Datenschutz"
-  url = "/datenschutz/"
-  weight = 6
 
 # --- FRANZÖSISCH ---
 [languages.fr]
@@ -76,6 +67,28 @@ defaultContentLanguage = "de"
 [[languages.fr.menu.main]]
   name = "Événements"
   url = "/fr/events/"
+  weight = 2
+
+# ---- FOOTER ----
+
+[[languages.de.menu.footer]]
+  name = "Impressum"
+  url = "/impressum/"
+  weight = 1
+
+[[languages.de.menu.footer]]
+  name = "Datenschutz"
+  url = "/datenschutz/"
+  weight = 2
+
+[[languages.fr.menu.footer]]
+  name = "Mentions légales"
+  url = "/fr/impressum/"
+  weight = 1
+
+[[languages.fr.menu.footer]]
+  name = "Confidentialité"
+  url = "/fr/datenschutz/"
   weight = 2
 
 # --- HTML erlauben ---
