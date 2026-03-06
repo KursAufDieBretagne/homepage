@@ -33,15 +33,15 @@ Bei jedem Aufruf unserer Website erfasst das System von GitHub automatisiert Dat
 
 Die vorübergehende Speicherung der IP-Adresse durch das System ist notwendig, um eine Auslieferung der Website an den Rechner des Nutzers zu ermöglichen. Diese Daten werden in den Logfiles von GitHub gespeichert, um die Sicherheit und Stabilität des Systems zu gewährleisten. GitHub agiert für uns als Auftragsverarbeiter. Weitere Informationen zum Datenschutz bei GitHub finden Sie hier: https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement
 
-## 3. Kontaktformular (Formspree)
+## 3. Kontaktformular (form.taxi)
 
 Wenn Sie uns per Kontaktformular Anfragen zukommen lassen, werden Ihre Angaben aus dem Anfrageformular inklusive der von Ihnen dort angegebenen Kontaktdaten (Name, E-Mail-Adresse, Nachrichtentext) zwecks Bearbeitung der Anfrage und für den Fall von Anschlussfragen bei uns gespeichert.
 
-Für die technische Abwicklung des Kontaktformulars nutzen wir den Dienst **Formspree** (Formspree Inc., 217 Nassau St, Princeton, NJ 08542, USA). Wenn Sie das Formular absenden, werden Ihre Daten verschlüsselt an die Server von Formspree übertragen, dort kurzzeitig gespeichert und anschließend als E-Mail an uns weitergeleitet.
+Für die technische Abwicklung des Kontaktformulars nutzen wir den Dienst **Form.taxi** (form.taxi e.K., Xantener Str. 122, 50733 Köln, Deutschland). 
 
-Die Verarbeitung der in das Kontaktformular eingegebenen Daten erfolgt somit ausschließlich auf Grundlage Ihrer Einwilligung (Art. 6 Abs. 1 lit. a DSGVO). Sie können diese Einwilligung jederzeit widerrufen. Dazu reicht eine formlose Mitteilung per E-Mail an uns.
+Wenn Sie das Formular absenden, werden Ihre Daten verschlüsselt an die Server von form.taxi in Deutschland übertragen, dort verarbeitet und anschließend als E-Mail an uns weitergeleitet. 
 
-Weitere Informationen zum Umgang mit Nutzerdaten bei Formspree finden Sie in der Datenschutzerklärung von Formspree: https://formspree.io/legal/privacy-policy/
+Weitere Informationen finden Sie in der Datenschutzerklärung von form.taxi: [https://form.taxi/de/privacy](https://form.taxi/de/privacy)
 
 ## 4. Cookies und Tracking
 
