@@ -87,6 +87,11 @@ h1, h2, h3, h4, h5, h6, .post__title, .list__title a {
     color: var(--color-white) !important;
 }
 
+.footer__links a:hover {
+    color: var(--color-gold);
+    text-decoration: underline;
+}
+
 /* 5. EVENT-CARDS */
 .event-card {
     border-left: 6px solid var(--color-gold) !important;
