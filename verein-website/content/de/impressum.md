@@ -4,12 +4,14 @@ date: 2026-03-06
 draft: false
 translationKey: "impressum"
 ---
-Angaben gemäß § 5 TMG:
+**Initiative "Kurs auf die Bretagne"**
 
-Initiative "Kurs auf die Bretagne"
+Ralph Ulrich
+Nils Spiering
+Sonja Heinze
 
-Sonja Heinze, 18439 Stralsund
+18439 Stralsund
 
 **Kontakt:**
 
-E-Mail: info@kurs-bretagne.de
+E-Mail: kurs-bretagne@mail.de
