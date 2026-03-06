@@ -69,6 +69,11 @@ defaultContentLanguage = "de"
   url = "/fr/events/"
   weight = 2
 
+[[languages.fr.menu.main]]
+  name = "Contact"
+  url = "/fr/kontakt/"
+  weight = 4
+
 # ---- FOOTER ----
 
 [[languages.de.menu.footer]]
