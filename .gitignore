@@ -16,3 +16,8 @@
 .DS_Store
 **/.DS_Store
 ._*
+.github/.DS_Store
+.DS_Store
+.DS_Store
+verein-website/static/.DS_Store
+verein-website/layouts/.DS_Store
