@@ -4,7 +4,7 @@ date: 2026-03-06T18:00:00
 draft: false
 translationKey: "kontakt"
 ---
-<form action="https://formspree.io/f/mwvrkran" method="POST" class="contact-form">
+<form action="https://form.taxi/s/dp02dale" method="POST" class="contact-form">
   <input type="text" name="_gotcha" style="display:none">
 
   <label style="display:block; margin-top: 10px;">
