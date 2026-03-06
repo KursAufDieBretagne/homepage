@@ -5,10 +5,11 @@ draft: false
 translationKey: "impressum"
 ---
 Angaben gemäß § 5 TMG:
-Max Mustermann
-Musterstraße 1
-12345 Musterstadt
+
+Initiative "Kurs auf die Bretagne"
+
+Sonja Heinze, 18439 Stralsund
 
 **Kontakt:**
-Telefon: +49 (0) 123 44 55 66
+
 E-Mail: info@kurs-bretagne.de
