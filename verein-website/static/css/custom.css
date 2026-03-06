@@ -1,30 +1,110 @@
-/* Maritimes Branding: Stralsund & Saint-Malo */
+/* 1. IMPORTE & VARIABLEN */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Open+Sans:wght@400;600&display=swap');
 
-/* Der obere Balken (Header) in Marineblau mit Gold-Akzent */
+:root {
+    --color-marine: #003b6f;
+    --color-gold: #d4af37;
+    --color-text-dark: #2d3436;
+    --color-bg-light: #f4f7f6; /* Etwas dunkler für besseren Kontrast zu weißen Boxen */
+    --radius-md: 12px;
+    --shadow-soft: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+/* 2. DER HÄRTETEST (Wir färben den Hintergrund leicht ein) */
+body {
+    font-family: 'Open Sans', sans-serif !important;
+    background-color: var(--color-bg-light) !important;
+    color: var(--color-text-dark);
+}
+
+/* 3. BOXEN-MODERNISIERUNG (Inhalt & Sidebar) */
+/* Wir nutzen hier .primary und .sidebar, um die Mainroad-Container zu treffen */
+.main, .sidebar__item {
+    background-color: #ffffff !important;
+    border-radius: var(--radius-md) !important;
+    box-shadow: var(--shadow-soft) !important;
+    padding: 2rem !important;
+    margin-bottom: 2rem !important;
+    border: none !important; /* Entfernt alte Rahmenlinien */
+}
+
+/* 4. HEADER-FEINSCHLIFF */
 .header {
-    background-color: #003b6f; /* Marineblau */
-    border-bottom: 4px solid #d4af37; /* Gold */
+    background-color: var(--color-marine) !important;
+    border-bottom: 6px solid var(--color-gold) !important;
 }
 
-/* Titel der Webseite in Gold */
 .logo__title {
-    color: #d4af37 !important;
+    font-family: 'Montserrat', sans-serif !important;
+    color: var(--color-gold) !important;
+    text-transform: uppercase;
 }
 
-/* Menü-Links im Header in Weiß (für guten Kontrast auf Blau) */
-.menu__link {
-    color: #ffffff !important;
+/* Sidebar Überschriften (die roten Linien im Screenshot entfernen) */
+.widget__title {
+    background: none !important;
+    color: var(--color-marine) !important;
+    border-bottom: 3px solid var(--color-gold) !important;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif !important;
 }
 
-/* Menü-Links beim Drüberfahren (Hover) in Gold */
-.menu__link:hover {
-    color: #d4af37 !important;
-}
-
-/* Normale Text-Links im Inhalt in Blau, Hover in Gold */
+/* 5. LINKS & INTERAKTION */
 a {
-    color: #003b6f;
+    color: var(--color-marine);
+    text-decoration: none;
+    transition: color var(--transition-speed);
 }
+
 a:hover {
-    color: #d4af37;
+    color: var(--color-gold);
+}
+
+/* 6. BUTTONS & INTERAKTIVE ELEMENTE (Optimierte Lesbarkeit) */
+.btn,
+.widget-search__submit,
+input[type="submit"] {
+    background-color: var(--color-marine) !important;
+    color: var(--color-white) !important;
+    border: 2px solid var(--color-marine) !important;
+    border-radius: var(--radius-md) !important;
+    padding: 0.8rem 1.5rem !important; /* Etwas mehr "Futter" für den Button */
+    font-weight: 700 !important; /* Fette Schrift für besseren Kontrast */
+    text-transform: uppercase !important;
+    letter-spacing: 1.2px !important; /* Mehr Abstand zwischen Buchstaben hilft beim Lesen */
+    transition: all var(--transition-speed) !important;
+    font-family: 'Montserrat', sans-serif !important; /* Montserrat ist bei Buttons lesbarer */
+}
+
+.btn:hover,
+.widget-search__submit:hover {
+    background-color: var(--color-gold) !important;
+    border-color: var(--color-gold) !important;
+    color: var(--color-marine) !important;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* 7. SPEZIAL-FIX: SPRACHWÄHLER (SIDEBAR) */
+/* Wir erzwingen weißen Text für die Sprach-Kürzel im blauen Kasten */
+.widget-languages__link,
+.widget-languages__label,
+.languages__item a,
+.languages__button {
+    color: var(--color-white) !important;
+    text-decoration: none !important;
+    font-weight: 700 !important;
+}
+
+/* Falls der Text in einem Unter-Element (wie einem span) liegt */
+.widget-languages__link span,
+.widget-languages__label span {
+    color: var(--color-white) !important;
+}
+
+/* Der Hover-Zustand (Gold) ist im Screenshot schon okay,
+   aber wir stellen sicher, dass der Text dann dunkelblau wird */
+.widget-languages__link:hover,
+.widget-languages__link:hover span {
+    color: var(--color-marine) !important;
 }
