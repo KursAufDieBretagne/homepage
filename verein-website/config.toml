@@ -16,7 +16,7 @@ defaultContentLanguage = "de"
 [params.logo]
   image = "img/logo.png"
   title = "Kurs auf die Bretagne"
-  subtitle = "Stralsund & Saint-Malo"
+  subtitle = "Für einen gelebten Kulturaustausch und Begegnungen zwischen Stralsund und Saint-Malo"
 
 # --- DEUTSCH ---
 [languages.de]
