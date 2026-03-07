@@ -22,6 +22,9 @@ Si vous êtes intéressé ou souhaitez participer à la création de l'associati
 
 Ohé! Cap sur la Bretagne!
 
+{{< figure src="kurs-bretagne-segeln.jpg" alt="Ein Segelboot auf dem Wasser" >}}
+
+
 Ralph Ulrich,
 
 Nils Spiering und

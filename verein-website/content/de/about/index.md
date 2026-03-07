@@ -5,7 +5,6 @@ draft: false
 translationKey: about
 ---
 
-
 Was passiert, wenn französische Leidenschaft auf hanseatische Bodenständigkeit trifft?
 
 Die Initiative „Kurs auf die Bretagne“ aus Stralsund möchte es ausprobieren. Ziel der Initiatoren ist die Gründung eines Vereins, der Interessierte aus Stralsund und Umgebung für den Kulturaustausch mit der bretonischen Stadt Saint-Malo begeistern soll. Langfristig erhoffen wir uns auf diesem Fundament die Etablierung einer Städtepartnerschaft.
@@ -22,7 +21,9 @@ Wer neugierig geworden ist oder sich an der Vereinsgründung beteiligen möchte,
 
 
 
-Ahoi! Kurs auf die Bretagne! {{< icon "segelboot" >}} 
+Ahoi! Kurs auf die Bretagne! 
+
+{{< figure src="kurs-bretagne-segeln.jpg" alt="Ein Segelboot auf dem Wasser" >}}
 
 Ralph Ulrich,
 Nils Spiering und
