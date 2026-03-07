@@ -1,0 +1,43 @@
+{{ define "main" }}
+<main class="main" role="main">
+    <article class="hero-section" style="background-color: var(--color-marine); color: var(--color-white); padding: 4rem 2rem; border-radius: var(--radius-md); text-align: center; margin-bottom: 3rem; border-bottom: 6px solid var(--color-gold); box-shadow: var(--shadow-soft);">
+        <h1 style="color: var(--color-gold) !important; font-family: var(--font-header) !important; font-size: 2.5rem; margin-bottom: 1.5rem;">
+            {{ .Title }}
+        </h1>
+        <div class="hero-content" style="font-size: 1.2rem; line-height: 1.8; font-family: var(--font-body);">
+            {{ .Content }}
+        </div>
+    </article>
+
+    <div style="display: flex; flex-wrap: wrap; gap: 2rem; justify-content: center; margin-top: 3rem;">
+
+        {{ with .Site.GetPage "about" }}
+        <div class="event-card" style="flex: 1 1 250px; max-width: 320px; text-align: center; margin-bottom: 0;">
+            <h2 style="font-family: var(--font-header); color: var(--color-marine); margin-top: 0; font-size: 1.6rem;">{{ .Title }}</h2>
+            <div class="event-card__footer">
+                <a href="{{ .RelPermalink }}" class="btn">Ansehen ➔</a>
+            </div>
+        </div>
+        {{ end }}
+
+        {{ with .Site.GetPage "events" }}
+        <div class="event-card" style="flex: 1 1 250px; max-width: 320px; text-align: center; margin-bottom: 0;">
+            <h2 style="font-family: var(--font-header); color: var(--color-marine); margin-top: 0; font-size: 1.6rem;">{{ .Title | default "Termine" }}</h2>
+            <div class="event-card__footer">
+                <a href="{{ .RelPermalink }}" class="btn">Ansehen ➔</a>
+            </div>
+        </div>
+        {{ end }}
+
+        {{ with .Site.GetPage "blog" }}
+        <div class="event-card" style="flex: 1 1 250px; max-width: 320px; text-align: center; margin-bottom: 0;">
+            <h2 style="font-family: var(--font-header); color: var(--color-marine); margin-top: 0; font-size: 1.6rem;">{{ .Title | default "Blog" }}</h2>
+            <div class="event-card__footer">
+                <a href="{{ .RelPermalink }}" class="btn">Ansehen ➔</a>
+            </div>
+        </div>
+        {{ end }}
+
+    </div>
+</main>
+{{ end }}

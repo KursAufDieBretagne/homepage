@@ -1,0 +1,22 @@
+{{ define "main" }}
+<main class="main list" role="main">
+    <header class="main__header">
+        <h1 class="main__title" style="font-family: var(--font-header); color: var(--color-marine);">
+            {{ .Title }}
+        </h1>
+    </header>
+
+    {{ if .Content }}
+    <div class="content main__content clearfix" style="margin-bottom: 2rem;">
+        {{ .Content }}
+    </div>
+    {{ end }}
+
+    <div class="events-list">
+        {{ $events := .Pages.ByParam "eventDate" }}
+        {{ range $events }}
+            {{ .Render "summary" }}
+        {{ end }}
+    </div>
+</main>
+{{ end }}

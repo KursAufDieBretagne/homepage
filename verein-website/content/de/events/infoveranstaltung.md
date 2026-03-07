@@ -8,3 +8,7 @@ translationKey: info-event
 ---
 
 Save the date: Am 26.03. findet eine Informationsveranstaltung zur Initiative "Kurs auf die Bretagne" hinsichtlich der geplanten Vereinsgründung statt.
+
+<!--more-->
+
+{{< anmeldung >}}

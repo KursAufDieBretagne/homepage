@@ -1,0 +1,16 @@
+{{ $name := .Get 0 }}
+
+{{ if eq $name "anker" }}
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--color-gold); vertical-align: middle; margin-right: 5px;">
+  <circle cx="12" cy="5" r="3"></circle>
+  <line x1="12" y1="22" x2="12" y2="8"></line>
+  <path d="M5 12H2a10 10 0 0 0 20 0h-3"></path>
+</svg>
+
+{{ else if eq $name "segelboot" }}
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--color-marine); vertical-align: middle; margin-right: 5px;">
+  <path d="M22 18H2a4 4 0 0 0 4 4h12a4 4 0 0 0 4-4Z"></path>
+  <path d="M21 14 10 2 3 14h18Z"></path>
+  <path d="M10 2v16"></path>
+</svg>
+{{ end }}

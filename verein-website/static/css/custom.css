@@ -1,5 +1,38 @@
-/* 1. IMPORTE & VARIABLEN */
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Alice&family=Open+Sans:wght@400;600&display=swap');
+/* 0. LOKALE SCHRIFTARTEN (DSGVO-konform) */
+@font-face {
+    font-family: 'Cinzel';
+    src: url('../fonts/Cinzel/static/Cinzel-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Alice';
+    src: url('../fonts/Alice/Alice-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/Open_Sans/static/OpenSans-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/Open_Sans/static/OpenSans-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+/* 1. VARIABLEN */
 
 :root {
     --color-marine: #003b6f;
@@ -82,9 +115,26 @@ h1, h2, h3, h4, h5, h6, .post__title, .list__title a {
     border-bottom: 4px solid var(--color-gold) !important;
 }
 
+/* Alle Hintergründe rigoros transparent machen, um das Rot zu killen */
+.menu__item,
+.menu__link,
+.menu__item--active,
+.menu__item.active {
+    background: transparent !important;
+    background-color: transparent !important;
+}
+
 .menu__link {
     font-family: var(--font-header) !important;
     color: var(--color-white) !important;
+}
+
+/* Hover & Aktiver Zustand: Nur die Schriftfarbe ändert sich zu Gold */
+.menu__link:hover,
+.menu__item:hover > .menu__link,
+.menu__item--active .menu__link,
+.menu__item.active .menu__link {
+    color: var(--color-gold) !important;
 }
 
 .footer__links a:hover {
@@ -127,7 +177,7 @@ h1, h2, h3, h4, h5, h6, .post__title, .list__title a {
     display: block !important;
 }
 
-/* BUTTONS */
+/* 6. BUTTONS */
 .btn {
     background-color: var(--color-marine) !important;
     color: var(--color-white) !important;
@@ -150,7 +200,7 @@ h1, h2, h3, h4, h5, h6, .post__title, .list__title a {
     box-shadow: 0 5px 15px rgba(0,0,0,0.2) !important;
 }
 
-/* 6. SIDEBAR & SPRACHWÄHLER */
+/* 7. SIDEBAR & SPRACHWÄHLER */
 .widget__title {
     font-family: var(--font-header) !important;
     color: var(--color-marine) !important;
@@ -173,7 +223,7 @@ h1, h2, h3, h4, h5, h6, .post__title, .list__title a {
     color: var(--color-marine) !important;
 }
 
-/* 7. MOBILE OPTIMIERUNG */
+/* 8. MOBILE OPTIMIERUNG */
 @media screen and (max-width: 768px) {
     /* Zwingt ALLE Header-Container in die Mitte */
     .header__container,
@@ -237,4 +287,35 @@ h1, h2, h3, h4, h5, h6, .post__title, .list__title a {
     .main, .sidebar__item {
         padding: 1.2rem !important;
     }
+
+    /* Optimierung des Navigationsmenüs für Handys */
+    .menu__list {
+        width: 100% !important;
+        left: 0 !important;
+        right: 0 !important;
+        text-align: center !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    .menu__item {
+        margin: 0 !important;
+        border-top: 1px solid rgba(255, 255, 255, 0.1) !important; /* Zarte Trennlinie zwischen den Punkten */
+        display: block !important;
+    }
+
+    .menu__link {
+        padding: 1rem !important; /* Große, gut tippbare Flächen */
+        font-size: 1.2rem !important;
+        display: block !important;
+        width: 100% !important;
+        box-sizing: border-box !important;
+    }
+
+    /* MENÜ-Button mobil sauber überschreiben */
+    .menu__btn {
+        color: var(--color-white) !important;
+        border: none;
+    }
+
 }

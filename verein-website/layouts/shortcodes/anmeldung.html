@@ -1,0 +1,24 @@
+<div class="registration-form" style="background-color: var(--color-white); padding: 2rem; border-radius: var(--radius-md); border-left: 6px solid var(--color-marine); box-shadow: var(--shadow-soft); margin-top: 2rem;">
+    <h3 style="color: var(--color-marine); font-family: var(--font-header); margin-top: 0;">Anmeldung zum Event</h3>
+
+    <form action="https://form.taxi/s/dp02dale" method="POST">
+        <input type="text" name="_gotcha" style="display:none">
+
+        <input type="hidden" name="Betreff" value="Anmeldung: {{ .Page.Title }}">
+
+        <label style="display:block; margin-top: 10px; font-family: var(--font-body);">Name:
+            <input type="text" name="name" required style="width: 100%; padding: 10px; margin-top: 5px; border: 1px solid #ccc; border-radius: 4px; font-family: var(--font-body);">
+        </label>
+
+        <label style="display:block; margin-top: 15px; font-family: var(--font-body);">E-Mail:
+            <input type="email" name="email" required style="width: 100%; padding: 10px; margin-top: 5px; border: 1px solid #ccc; border-radius: 4px; font-family: var(--font-body);">
+        </label>
+
+        <label style="display:block; margin-top: 15px; font-size: 0.9em; font-family: var(--font-body);">
+            <input type="checkbox" name="privacy_accepted" required style="margin-right: 5px;">
+            Ich habe die <a href="/datenschutz/" style="color: var(--color-marine);">Datenschutzerklärung</a> gelesen und bin einverstanden. *
+        </label>
+
+        <button type="submit" class="btn" style="margin-top: 20px; border: none; cursor: pointer; width: 100%;">Jetzt anmelden</button>
+    </form>
+</div>
