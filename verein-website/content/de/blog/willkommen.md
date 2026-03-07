@@ -7,3 +7,4 @@ translationKey: "welcome-post"
 Willkommen aus unserer Webseite!
 
 Diese Seite befindet sich aktuell im Aufbau.
+

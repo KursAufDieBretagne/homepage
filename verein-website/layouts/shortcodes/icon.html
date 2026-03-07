@@ -1,6 +1,7 @@
 {{ $name := .Get 0 }}
 
 {{ if eq $name "anker" }}
+<!-- SVG Anker -->
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--color-gold); vertical-align: middle; margin-right: 5px;">
   <circle cx="12" cy="5" r="3"></circle>
   <line x1="12" y1="22" x2="12" y2="8"></line>
@@ -8,9 +9,24 @@
 </svg>
 
 {{ else if eq $name "segelboot" }}
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--color-marine); vertical-align: middle; margin-right: 5px;">
+<!-- SVG Segelboot -->
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--color-gold); vertical-align: middle; margin-right: 5px;">
   <path d="M22 18H2a4 4 0 0 0 4 4h12a4 4 0 0 0 4-4Z"></path>
   <path d="M21 14 10 2 3 14h18Z"></path>
   <path d="M10 2v16"></path>
 </svg>
+
+{{ else if eq $name "kompass" }}
+<!-- NEU: SVG Kompass -->
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--color-gold); vertical-align: middle; margin-right: 5px;">
+  <circle cx="12" cy="12" r="10"></circle>
+  <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon>
+</svg>
+
+{{ else if eq $name "rettungsring" }}
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-life-buoy-icon lucide-life-buoy" style="color: var(--color-gold); vertical-align: middle; margin-right: 5px;">
+  <circle cx="12" cy="12" r="10"/>
+  <path d="m4.93 4.93 4.24 4.24"/><path d="m14.83 9.17 4.24-4.24"/><path d="m14.83 14.83 4.24 4.24"/><path d="m9.17 14.83-4.24 4.24"/><circle cx="12" cy="12" r="4"/>
+</svg>
+
 {{ end }}
