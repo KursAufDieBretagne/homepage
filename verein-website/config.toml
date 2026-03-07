@@ -13,8 +13,6 @@ defaultContentLanguage = "de"
   single = "right"
   widgets = ["search", "recent", "languages"]
 
-[params.logo]
-  image = "img/logo.png"
 
 # --- DEUTSCH ---
 [languages.de]
@@ -23,9 +21,10 @@ defaultContentLanguage = "de"
   weight = 1
   title = "Kurs auf die Bretagne"
 
-  [languages.de.params.logo]
-    title = "Kurs auf die Bretagne"
-    subtitle = "Für einen gelebten Kulturaustausch zwischen Stralsund & Saint-Malo"
+[languages.de.params.logo]
+  image = "img/logo.png"
+  title = "Kurs auf die Bretagne"
+  subtitle = "Für einen gelebten Kulturaustausch zwischen Stralsund & Saint-Malo"
 
 [[languages.de.menu.main]]
   name = "Startseite"
@@ -55,9 +54,10 @@ defaultContentLanguage = "de"
   weight = 2
   title = "Cap vers la Bretagne"
 
-  [languages.fr.params.logo]
-    title = "Cap vers la Bretagne"
-    subtitle = "Pour un échange culturel vivant entre Stralsund et Saint-Malo"
+[languages.fr.params.logo]
+  image = "img/logo.png"
+  title = "Cap vers la Bretagne"
+  subtitle = "Pour un échange culturel vivant entre Stralsund et Saint-Malo"
 
 [[languages.fr.menu.main]]
   name = "Accueil"
