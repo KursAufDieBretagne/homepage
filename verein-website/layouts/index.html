@@ -20,6 +20,15 @@
         </div>
         {{ end }}
 
+        {{ with .Site.GetPage "blog" }}
+        <div class="event-card" style="flex: 1 1 250px; max-width: 320px; text-align: center; margin-bottom: 0;">
+            <h2 style="font-family: var(--font-header); color: var(--color-marine); margin-top: 0; font-size: 1.6rem;">{{ .Title | default "Blog" }}</h2>
+            <div class="event-card__footer">
+                <a href="{{ .RelPermalink }}" class="btn">Ansehen ➔</a>
+            </div>
+        </div>
+        {{ end }}
+
         {{ with .Site.GetPage "events" }}
         <div class="event-card" style="flex: 1 1 250px; max-width: 320px; text-align: center; margin-bottom: 0;">
             <h2 style="font-family: var(--font-header); color: var(--color-marine); margin-top: 0; font-size: 1.6rem;">{{ .Title | default "Termine" }}</h2>
@@ -29,14 +38,16 @@
         </div>
         {{ end }}
 
-        {{ with .Site.GetPage "blog" }}
+        {{ with .Site.GetPage "links" }}
         <div class="event-card" style="flex: 1 1 250px; max-width: 320px; text-align: center; margin-bottom: 0;">
-            <h2 style="font-family: var(--font-header); color: var(--color-marine); margin-top: 0; font-size: 1.6rem;">{{ .Title | default "Blog" }}</h2>
+            <h2 style="font-family: var(--font-header); color: var(--color-marine); margin-top: 0; font-size: 1.6rem;">{{ .Title | default "Links" }}</h2>
             <div class="event-card__footer">
                 <a href="{{ .RelPermalink }}" class="btn">Ansehen ➔</a>
             </div>
         </div>
         {{ end }}
+
+
 
     </div>
 </main>
