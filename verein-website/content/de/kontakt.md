@@ -1,8 +1,9 @@
 ---
-title: "Kontakt"
+title: Kontakt
 date: 2026-03-06T18:00:00
 draft: false
-translationKey: "kontakt"
+translationKey: kontakt
+weight: 7
 ---
 <form action="https://form.taxi/s/dp02dale" method="POST" class="contact-form">
   <input type="text" name="_gotcha" style="display:none">

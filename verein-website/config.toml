@@ -34,17 +34,27 @@ defaultContentLanguage = "de"
 [[languages.de.menu.main]]
   name = "Über uns"
   url = "/about/"
-  weight = 3
+  weight = 4
 
 [[languages.de.menu.main]]
   name = "Termine"
   url = "/events/"
-  weight = 2
+  weight = 3
 
 [[languages.de.menu.main]]
   name = "Kontakt"
   url = "/kontakt/"
-  weight = 4
+  weight = 6
+
+[[languages.de.menu.main]]
+    name = "Links"
+    url = "/links/"
+    weight = 5
+
+[[languages.de.menu.main]]
+    name = "Aktuelles"
+    url = "/blog/"
+    weight = 2
 
 
 # --- FRANZÖSISCH ---
@@ -77,7 +87,17 @@ defaultContentLanguage = "de"
 [[languages.fr.menu.main]]
   name = "Contact"
   url = "/fr/kontakt/"
-  weight = 4
+  weight = 6
+
+[[languages.fr.menu.main]]
+  name = "Liens"
+  url = "/fr/links/"
+  weight = 5
+
+  [[languages.fr.menu.main]]
+  name = "Actualités"
+  url = "/fr/blog/"
+  weight = 2
 
 # ---- FOOTER ----
 
