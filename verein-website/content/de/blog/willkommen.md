@@ -6,7 +6,9 @@ translationKey: welcome-post
 ---
 **8. März 2026**
 
-Wir freuen uns, euch unsere neue Online-Heimat präsentieren zu können! [**kurs-bretagne.de**](https://kurs-bretagne.de) als zentrale Anlaufstelle für alle, die sich für den deutsch-französischen Austausch zwischen den Städten und Regionen: Stralsund, MV und Saint-Malo, Bretagne, interessieren.
+Wir freuen uns, euch unsere neue Online-Heimat präsentieren zu können! [**kurs-bretagne.de**](https://kurs-bretagne.de) als zentrale Anlaufstelle für alle, die sich für den deutsch-französischen Austausch zwischen den Städten und Regionen: Stralsund, MV und Saint-Malo, Bretagne, interessieren. (...)
+
+<!--more-->
 
 **Was ihr hier findet**
 
@@ -26,3 +28,5 @@ Auf dieser Webseite informieren wir über unsere Initiative, geplante Veranstalt
 Die offizielle Gründung unseres Vereins steht unmittelbar bevor und wir arbeiten auf Hochtouren daran. Alle, die sich aktiv einbringen möchten, sind herzlichst eingeladen! Meldet euch unter kurs-bretagne@mail.de und/oder kommt zu  unserer [Infoveranstaltung](https://kurs-bretagne.de/events/infoveranstaltung/).
 
 **Gemeinsam setzen wir die Segel mit Kurs auf die Bretagne!**
+
+(sh)

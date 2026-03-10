@@ -6,7 +6,9 @@ translationKey: welcome-post
 ---
 **8 mars 2026**
 
- Nous sommes heureux de vous présenter notre nouveau site Internet ! [**kurs-bretagne.de**](https://kurs-bretagne.de/fr/) est le point de contact central pour toutes les personnes intéressées par les échanges franco-allemands entre les villes et régions de Stralsund, en Mecklembourg-Poméranie occidentale, et Saint-Malo, en Bretagne.
+ Nous sommes heureux de vous présenter notre nouveau site Internet ! [**kurs-bretagne.de**](https://kurs-bretagne.de/fr/) est le point de contact central pour toutes les personnes intéressées par les échanges franco-allemands entre les villes et régions de Stralsund, en Mecklembourg-Poméranie occidentale, et Saint-Malo, en Bretagne. (...)
+
+<!--more-->
 
 **Ce que vous trouverez ici**
 
@@ -27,3 +29,5 @@ La création officielle de notre association est imminente et nous y travaillons
 
   
 **Ensemble, mettons les voiles vers la Bretagne !**
+
+(sh)
