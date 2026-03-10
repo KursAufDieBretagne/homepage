@@ -8,7 +8,7 @@ translationKey: stralsund-saintmalo
 
 ## Zwei Städte, eine maritime Seele
 
-Stralsund und Saint-Malo – auf den ersten Blick trennen uns über 1.300 Kilometer. Doch bei genauerem Hinsehen verbindet beide Städte weit mehr, als die Entfernung vermuten lässt. Zwei maritime Hansestädte mit bewegter Geschichte, stolzer Tradition und einem Blick nach vorn. Die idealen Partner für einen lebendigen Kulturaustausch und dem perspektivischen Aufbau einer gelebten Städtepartnerschaft.
+Stralsund und Saint-Malo: auf den ersten Blick trennen uns über 1.300 Kilometer. Doch bei genauerem Hinsehen verbindet beide Städte weit mehr, als die Entfernung vermuten lässt. Zwei maritime, historische Städte mit bewegter Geschichte, stolzer Tradition und einem Blick nach vorn. Die idealen Partner für einen lebendigen Kulturaustausch und dem perspektivischen Aufbau einer gelebten Städtepartnerschaft.
 
 ## Maritimes Erbe, das verbindet
 
