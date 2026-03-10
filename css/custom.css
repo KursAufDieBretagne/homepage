@@ -60,7 +60,7 @@ h1, h2, h3, h4, h5, h6, .post__title, .list__title a {
     font-family: var(--font-sub) !important;
     color: var(--color-marine) !important;
     font-weight: normal !important;
-    text-decoration: none !important;
+    /*text-decoration: none !important;*/
 }
 
 /* 3. HEADER & LOGO ALIGNMENT (Desktop) */
@@ -317,5 +317,3 @@ h1, h2, h3, h4, h5, h6, .post__title, .list__title a {
         color: var(--color-white) !important;
         border: none;
     }
-
-}
