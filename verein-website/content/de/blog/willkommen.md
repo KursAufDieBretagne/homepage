@@ -1,10 +1,28 @@
 ---
-title: "Willkommen"
-date: 2026-02-26
+title: Willkommen auf kurs-bretagne.de
+date: 2026-03-08
 draft: false
-translationKey: "welcome-post"
+translationKey: welcome-post
 ---
-Willkommen aus unserer Webseite!
+**8. März 2026**
 
-Diese Seite befindet sich aktuell im Aufbau.
+Wir freuen uns, euch unsere neue Online-Heimat präsentieren zu können! [**kurs-bretagne.de**](https://kurs-bretagne.de) als zentrale Anlaufstelle für alle, die sich für den deutsch-französischen Austausch zwischen den Städten und Regionen: Stralsund, MV und Saint-Malo, Bretagne, interessieren.
 
+**Was ihr hier findet**
+
+Auf dieser Webseite informieren wir über unsere Initiative, geplante Veranstaltungen und die vielfältigen Möglichkeiten, sich zu engagieren. In den kommenden Wochen erwarten euch:
+
+- **Hintergrundberichte** über die Verbindungen zwischen beiden Städten
+
+- **Veranstaltungsankündigungen** und Termine
+
+- **Einblicke in laufende Projekte** 
+   
+- **Mitmach-Möglichkeiten** für Vereine, Schulen, Unternehmen und Einzelpersonen
+
+
+**Vereinsgründung im Frühjahr 2026**
+
+Die offizielle Gründung unseres Vereins steht unmittelbar bevor und wir arbeiten auf Hochtouren daran. Alle, die sich aktiv einbringen möchten, sind herzlichst eingeladen! Meldet euch unter kurs-bretagne@mail.de und/oder kommt zu  unserer [Infoveranstaltung](https://kurs-bretagne.de/events/infoveranstaltung/).
+
+**Gemeinsam setzen wir die Segel mit Kurs auf die Bretagne!**
