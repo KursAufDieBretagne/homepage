@@ -17,11 +17,11 @@ Im Mittelpunkt steht die Freude am Miteinander und dem Austausch. Außerdem spie
 
 Als (Gründungs-)Mitglieder des Vereins sind daher alle willkommen, die unter anderem Spaß am interkulturellen Austausch haben, neue Bekanntschaften knüpfen und ihre Fähigkeiten für eine gute Sache einsetzen möchten. Französischkenntnisse sind zwar von Vorteil, aber nicht zwingend für das gemeinsame Engagement erforderlich.
 
+Unser zukünftiges Vereinsheim wird die [KulturDIELE M8](https://kulturdiele-hst.de/) in Stralsund. Vielen Dank an dieser Stelle für diese Möglichkeit an die KulturDIELE M8.
+
 Wer neugierig geworden ist oder sich an der Vereinsgründung beteiligen möchte, meldet sich bitte per Mail bei uns: kurs-bretagne@mail.de
 
-
-
-Ahoi! Kurs auf die Bretagne! 
+Ahoi! Kurs auf die Bretagne!
 
 {{< figure src="kurs-bretagne-segeln.jpg" alt="Ein Segelboot auf dem Wasser" >}}
 

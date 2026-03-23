@@ -18,6 +18,8 @@ L'accent est mis sur le plaisir d'être ensemble et d'échanger. De plus, l'atta
 
 Tous ceux qui aiment les échanges interculturels, souhaitent faire de nouvelles connaissances et mettre leurs compétences au service d'une bonne cause sont donc les bienvenus en tant que membres (fondateurs) de l'association. La connaissance du français est un atout, mais n'est pas indispensable pour s'engager dans cette aventure commune.
 
+Notre futur local associatif sera la [KulturDIELE M8](https://kulturdiele-hst.de/) à Stralsund. Nous tenons à remercier chaleureusement la KulturDIELE M8 de nous offrir cette opportunité.
+
 Si vous êtes intéressé ou souhaitez participer à la création de l'association, veuillez nous contacter par e-mail à l'adresse suivante : kurs-bretagne@mail.de.
 
 Ohé! Cap sur la Bretagne!

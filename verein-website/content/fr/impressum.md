@@ -18,4 +18,5 @@ Sonja Heinze
 
 E-mail : kurs-bretagne@mail.de  
 
-Lieu : Stralsund
+Kurs auf die Bretage c/o KulturDIELE M8  
+Mönchstraße 8, 18439 Stralsund
