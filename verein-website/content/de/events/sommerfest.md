@@ -1,7 +1,7 @@
 ---
 title: Sommerfest
 date: 2026-02-28T23:34:26+01:00
-draft: true
+draft: false
 eventDate: 2026-07-25
 location: KulturDIELE M8, Mönchstr. 8, 18439 Stralsund
 translationKey: sommerfest
