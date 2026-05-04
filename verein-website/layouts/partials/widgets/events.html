@@ -1,0 +1,27 @@
+{{- $eventsPage := .Site.GetPage "events" }}
+{{- $allEvents := $eventsPage.RegularPages.ByParam "eventDate" }}
+{{- $upcoming := slice }}
+
+{{- range $allEvents }}
+    {{- if ge (time .Params.eventDate) now }}
+        {{- $upcoming = $upcoming | append . }}
+    {{- end }}
+{{- end }}
+
+{{- if gt (len $upcoming) 0 }}
+<div class="widget-events widget">
+	<h4 class="widget__title">{{ if eq .Lang "fr" }}Événements à venir{{ else }}Bevorstehende Termine{{ end }}</h4>
+	<div class="widget__content">
+		<ul class="widget__list">
+			{{- range first 5 $upcoming }}
+			<li class="widget__item">
+				<a class="widget__link" href="{{ .RelPermalink }}" style="display: block; margin-bottom: 2px;">{{ .Title }}</a>
+				<small style="color: var(--color-marine); font-family: var(--font-body); display: flex; align-items: center; gap: 5px;">
+					<span>📅</span> {{ time.Format "02.01.2006" .Params.eventDate }}
+				</small>
+			</li>
+			{{- end }}
+		</ul>
+	</div>
+</div>
+{{- end }}

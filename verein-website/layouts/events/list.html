@@ -14,8 +14,41 @@
 
     <div class="events-list">
         {{ $events := .Pages.ByParam "eventDate" }}
+        {{ $upcoming := slice }}
+        {{ $past := slice }}
+        
         {{ range $events }}
-            {{ .Render "summary" }}
+            {{ if ge (time .Params.eventDate) now }}
+                {{ $upcoming = $upcoming | append . }}
+            {{ else }}
+                {{ $past = $past | append . }}
+            {{ end }}
+        {{ end }}
+
+        {{ if gt (len $upcoming) 0 }}
+            <h2 style="margin-top: 1rem; margin-bottom: 1.5rem;">
+                {{ if eq .Lang "fr" }}Événements à venir{{ else }}Bevorstehende Termine{{ end }}
+            </h2>
+            <div class="events-upcoming">
+                {{ range $upcoming }}
+                    {{ .Render "summary" }}
+                {{ end }}
+            </div>
+        {{ end }}
+
+        {{ if gt (len $past) 0 }}
+            <h2 style="margin-top: 3rem; margin-bottom: 1.5rem;">
+                {{ if eq .Lang "fr" }}Événements passés{{ else }}Vergangene Termine{{ end }}
+            </h2>
+            <div class="events-past">
+                {{ range sort $past "Params.eventdate" "desc" }}
+                    {{ .Render "summary" }}
+                {{ end }}
+            </div>
+        {{ end }}
+
+        {{ if and (eq (len $upcoming) 0) (eq (len $past) 0) }}
+            <p>{{ if eq .Lang "fr" }}Aucun événement prévu pour le moment.{{ else }}Aktuell sind keine Termine vorhanden.{{ end }}</p>
         {{ end }}
     </div>
 </main>

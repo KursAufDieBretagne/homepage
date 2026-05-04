@@ -1,0 +1,36 @@
+{{- $lang := .Lang | default "de" }}
+<div class="translate-widget" id="translate-widget">
+  <button
+    id="translate-trigger"
+    class="translate-trigger"
+    aria-label="{{ if eq $lang "fr" }}Traduire cette page{{ else }}Diese Seite übersetzen{{ end }}"
+    title="{{ if eq $lang "fr" }}Traduire avec Google{{ else }}Mit Google übersetzen{{ end }}"
+    onclick="loadGoogleTranslate()"
+  >
+    🌐 <span>{{ if eq $lang "fr" }}Traduire{{ else }}Übersetzen{{ end }}</span>
+  </button>
+  <div id="google_translate_element" style="display:none;"></div>
+</div>
+
+<script>
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({
+    pageLanguage: '{{ $lang }}',
+    includedLanguages: 'fr,en,nl,pl,da,sv,es,pt,it,fi,br',
+    layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+    autoDisplay: false
+  }, 'google_translate_element');
+  document.getElementById('google_translate_element').style.display = 'block';
+  document.getElementById('translate-trigger').style.display = 'none';
+}
+
+function loadGoogleTranslate() {
+  // Script wird erst bei Klick geladen – DSGVO-konform (Opt-in)
+  if (!document.getElementById('gt-script')) {
+    var s = document.createElement('script');
+    s.id = 'gt-script';
+    s.src = '//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit';
+    document.body.appendChild(s);
+  }
+}
+</script>

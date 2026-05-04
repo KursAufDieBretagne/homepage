@@ -11,12 +11,12 @@ defaultContentLanguage = "de"
   home = "right"
   list = "right"
   single = "right"
-  widgets = ["search", "recent", "languages"]
+  widgets = ["search", "recent", "events"]
 
 
 # --- DEUTSCH ---
 [languages.de]
-  languageName = "Deutsch"
+  label = "Deutsch"
   contentDir = "content/de"
   weight = 1
   title = "Kurs auf die Bretagne"
@@ -59,7 +59,7 @@ defaultContentLanguage = "de"
 
 # --- FRANZÖSISCH ---
 [languages.fr]
-  languageName = "Français"
+  label = "Français"
   contentDir = "content/fr"
   weight = 2
   title = "Cap vers la Bretagne"

@@ -113,6 +113,23 @@ h1, h2, h3, h4, h5, h6, .post__title, .list__title a {
 .menu {
     background-color: #1a1a1a !important;
     border-bottom: 4px solid var(--color-gold) !important;
+    display: flex !important;
+    align-items: center !important;
+    flex-wrap: wrap !important;
+}
+
+/* Menü-Liste nimmt den verfügbaren Platz links ein */
+.menu__list {
+    flex: 1 !important;
+}
+
+/* Translate-Widget wird rechts außen in der Menüleiste angezeigt */
+.menu > .translate-widget {
+    margin-left: auto !important;
+    padding: 0 1rem !important;
+    flex-shrink: 0 !important;
+    background: #1a1a1a !important;
+    background-color: #1a1a1a !important;
 }
 
 /* Alle Hintergründe rigoros transparent machen, um das Rot zu killen */
@@ -317,3 +334,68 @@ h1, h2, h3, h4, h5, h6, .post__title, .list__title a {
         color: var(--color-white) !important;
         border: none;
     }
+
+    /* Translate-Button mobil: eigene Zeile unterhalb der Menüpunkte */
+    .menu > .translate-widget {
+        width: 100% !important;
+        justify-content: center !important;
+        padding: 0.6rem 0 !important;
+        border-top: 1px solid rgba(255,255,255,0.15) !important;
+        margin-left: 0 !important;
+    }
+}
+
+/* 9. TRANSLATE WIDGET */
+.translate-widget {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0 1rem;
+    background-color: #1a1a1a !important;
+}
+
+.translate-trigger {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    background: transparent;
+    border: 1.5px solid var(--color-gold);
+    color: var(--color-gold);
+    font-family: var(--font-header);
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 0.35rem 0.8rem;
+    border-radius: var(--radius-md);
+    cursor: pointer;
+    transition: all var(--transition-speed);
+    white-space: nowrap;
+}
+
+.translate-trigger:hover {
+    background: var(--color-gold);
+    color: var(--color-marine);
+}
+
+/* Google Translate Dropdown – Farbanpassung */
+#google_translate_element .goog-te-gadget-simple {
+    background-color: transparent !important;
+    border: 1.5px solid var(--color-gold) !important;
+    border-radius: var(--radius-md) !important;
+    padding: 0.2rem 0.5rem !important;
+}
+
+#google_translate_element .goog-te-gadget-simple a {
+    color: var(--color-gold) !important;
+    font-family: var(--font-header) !important;
+    font-size: 0.8rem !important;
+    text-decoration: none !important;
+}
+
+/* Versteckt die aufdringliche Google-Toolbar am Seitenanfang */
+.goog-te-banner-frame {
+    display: none !important;
+}
+body {
+    top: 0px !important;
+}

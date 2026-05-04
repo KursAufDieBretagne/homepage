@@ -47,7 +47,25 @@ Weitere Informationen finden Sie in der Datenschutzerklärung von form.taxi: [ht
 
 Diese Website verwendet **keine** Tracking-Cookies, Analysetools (wie Google Analytics) oder Social-Media-Plugins, die Ihr Surfverhalten aufzeichnen.
 
-## 5. Ihre Rechte
+Eine Ausnahme bildet die optionale Übersetzungsfunktion (siehe Abschnitt 5): Erst wenn Sie aktiv auf die Schaltfläche „🌐 Übersetzen" klicken, wird ein externes Script von Google geladen. Bis zu diesem Klick werden **keine** Daten an Google übertragen.
+
+## 5. Optionale Übersetzungsfunktion (Google Translate)
+
+Auf unserer Website bieten wir eine optionale Übersetzungsfunktion an, die auf dem Dienst **Google Translate** des Unternehmens **Google LLC** (1600 Amphitheatre Parkway, Mountain View, CA 94043, USA) basiert.
+
+Diese Funktion ist als **Opt-in** gestaltet: Das externe Script von Google wird erst geladen, wenn Sie explizit auf die Schaltfläche „🌐 Übersetzen" klicken. Besuchen Sie unsere Website ohne diesen Klick, findet **keinerlei Datenübertragung** an Google statt.
+
+Nach dem Klick auf die Schaltfläche gilt:
+
+- Ihr Browser lädt das Google-Translate-Script von Googles Servern.
+- Dabei wird Ihre IP-Adresse sowie der Seiteninhalt an Google übertragen und dort verarbeitet.
+- Google kann diese Daten zur Verbesserung seiner Dienste nutzen.
+
+Weitere Informationen finden Sie in der Datenschutzerklärung von Google: [https://policies.google.com/privacy](https://policies.google.com/privacy)
+
+**Rechtsgrundlage:** Die Verarbeitung erfolgt auf Grundlage Ihrer ausdrücklichen Einwilligung gemäß Art. 6 Abs. 1 lit. a DSGVO, die Sie durch den Klick auf die Schaltfläche erteilen. Sie können die Nutzung jederzeit unterlassen, indem Sie die Schaltfläche nicht betätigen.
+
+## 6. Ihre Rechte
 
 Sie haben jederzeit das Recht:
 
