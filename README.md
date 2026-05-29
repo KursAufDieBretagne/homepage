@@ -1,6 +1,6 @@
 # Kurs auf die Bretagne – Homepage
 
-Quellcode der Website [kurs-bretagne.de](https://kurs-bretagne.de) der Initiative „Kurs auf die Bretagne" für einen gelebten Kulturaustausch zwischen Stralsund & Saint-Malo.
+Quellcode der Website [kurs-bretagne.de](https://kurs-bretagne.de) des Vereins "Kurs auf die Bretagne (e.V.)" für einen gelebten Kulturaustausch zwischen Stralsund & Saint-Malo.
 
 ---
 
