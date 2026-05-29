@@ -5,18 +5,26 @@ draft: false
 translationKey: "impressum"
 ---
 
-**Initiative "Kurs auf die Bretagne"**
-
-Ralph Ulrich
-
-Nils Spiering
-
-Sonja Heinze
+### Anschrift  
+Kurs auf die Bretagne (e.V.)   
+Mönchstraße 8  
+18439 Stralsund   
 
 
-**Kontakt:**
-
+### Kontakt:  
 E-Mail: kurs-bretagne@mail.de
 
-Kurs auf die Bretage c/o KulturDIELE M8  
-Mönchstraße 8, 18439 Stralsund
+
+### Verantwortlich für den Inhalt:   
+Kurs auf die Bretagne (e.V.)   
+
+
+### Vertreten durch:   
+Nils Spiering (1. Vorsitzender)  
+Ralph Ulrich (2. Vorsitzender)  
+Sonja Heinze (Schatzmeisterin)  
+
+
+### Registergericht:  
+Amtsgericht Stralsund  
+Registernummer: beantragt    
