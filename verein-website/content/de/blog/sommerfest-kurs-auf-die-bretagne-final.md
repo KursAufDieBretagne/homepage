@@ -1,5 +1,5 @@
 ---
-title: Zwischen Crêpes und Backstein: Ein bretonisch-hanseatisches Wochenende
+title: Zwischen Crêpes und Backstein | Ein bretonisch-hanseatisches Wochenende
 date: 2026-08-14
 draft: false
 translationKey: sommerfest
