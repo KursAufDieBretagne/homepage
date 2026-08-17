@@ -1,6 +1,6 @@
 ---
 title: Vortrag zur Bretagne und Saint-Malo (IKW Stralsund 2026)
-date: 2026-08-17
+date: 2026-09-30
 draft: false
 eventDate: 2026-09-30T17:00:00
 location: KulturDIELE M8, Mönchstr. 8, 18439 Stralsund
