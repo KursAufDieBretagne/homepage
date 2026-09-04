@@ -399,3 +399,174 @@ h1, h2, h3, h4, h5, h6, .post__title, .list__title a {
 body {
     top: 0px !important;
 }
+
+/* 10. IMPRESSIONEN (FOTOS & VIDEOS) */
+
+.impressionen-intro {
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.impressionen-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+.impressionen-grid--cols-1 {
+    grid-template-columns: 1fr;
+}
+
+.impressionen-grid--cols-2 {
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+.impressionen-grid--cols-3 {
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+
+/* Photo & Video Cards */
+.impressionen-photo-card,
+.impressionen-video-card {
+    background-color: var(--color-white) !important;
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-soft);
+    overflow: hidden;
+    margin: 0 0 1.5rem 0;
+    border-bottom: 3px solid var(--color-gold);
+    transition: transform var(--transition-speed), box-shadow var(--transition-speed);
+}
+
+.impressionen-photo-card:hover,
+.impressionen-video-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
+}
+
+/* Responsive 16:9 Video Container */
+.video-responsive {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+    height: 0;
+    overflow: hidden;
+    background-color: #000;
+    border-radius: var(--radius-md) var(--radius-md) 0 0;
+}
+
+.video-responsive iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+/* Photo Wrapper & Hover Zoom */
+.impressionen-photo-wrapper {
+    overflow: hidden;
+    position: relative;
+    background-color: #f0f0f0;
+}
+
+.impressionen-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+}
+
+.impressionen-photo-card:hover .impressionen-img {
+    transform: scale(1.04);
+}
+
+/* Caption styling */
+.impressionen-caption {
+    padding: 0.85rem 1.1rem;
+    font-size: 0.95rem;
+    color: var(--color-text-dark);
+    line-height: 1.45;
+}
+
+.impressionen-caption strong {
+    color: var(--color-marine);
+    font-family: var(--font-sub);
+    font-size: 1.05rem;
+}
+
+/* Mobile adjustments */
+@media screen and (max-width: 600px) {
+    .impressionen-grid {
+        grid-template-columns: 1fr;
+        gap: 1.2rem;
+    }
+}
+
+/* Instagram Embed & Card Styling */
+.impressionen-instagram-card {
+    background-color: var(--color-white) !important;
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-soft);
+    overflow: hidden;
+    margin: 0 0 1.5rem 0;
+    border-bottom: 3px solid #e1306c; /* Instagram Brand Color */
+    transition: transform var(--transition-speed), box-shadow var(--transition-speed);
+}
+
+.impressionen-instagram-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 28px rgba(225, 48, 108, 0.15);
+}
+
+.instagram-embed-responsive {
+    position: relative;
+    width: 100%;
+    min-height: 440px;
+    background: #fff;
+    overflow: hidden;
+}
+
+.instagram-embed-responsive iframe {
+    width: 100%;
+    height: 480px;
+    border: 0;
+}
+
+.instagram-header {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.instagram-icon {
+    stroke: #e1306c;
+}
+
+.instagram-text {
+    margin: 0.4rem 0 0.8rem 0;
+    font-size: 0.9rem;
+    color: var(--color-text-dark);
+}
+
+.instagram-link-btn {
+    display: inline-block;
+    color: #e1306c !important;
+    font-family: var(--font-header);
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.2s ease;
+}
+
+.instagram-link-btn:hover {
+    color: var(--color-marine) !important;
+    text-decoration: underline;
+}
+
+
