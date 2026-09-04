@@ -65,7 +65,27 @@ Weitere Informationen finden Sie in der Datenschutzerklärung von Google: [https
 
 **Rechtsgrundlage:** Die Verarbeitung erfolgt auf Grundlage Ihrer ausdrücklichen Einwilligung gemäß Art. 6 Abs. 1 lit. a DSGVO, die Sie durch den Klick auf die Schaltfläche erteilen. Sie können die Nutzung jederzeit unterlassen, indem Sie die Schaltfläche nicht betätigen.
 
-## 6. Ihre Rechte
+## 6. Eingebundene YouTube-Videos (erweiterter Datenschutzmodus)
+
+Auf unserer Website binden wir Videos der Plattform **YouTube** des Anbieters **Google Ireland Limited** (Gordon House, Barrow Street, Dublin 4, Irland) ein.
+
+Wir nutzen dabei den von YouTube bereitgestellten **erweiterten Datenschutzmodus** (`youtube-nocookie.com`). Laut Angaben von YouTube werden in diesem Modus erst dann Cookies auf Ihrem Endgerät gespeichert oder Tracking-Daten erfasst, wenn Sie ein Video aktiv abspielen. Beim bloßen Aufrufen einer Seite mit eingebundenem Video wird Ihre IP-Adresse an Google übertragen, um das Vorschaubild bereitzustellen.
+
+Weitere Informationen zum Datenschutz bei YouTube/Google finden Sie unter: [https://policies.google.com/privacy](https://policies.google.com/privacy)
+
+**Rechtsgrundlage:** Die Einbindung erfolgt auf Grundlage unseres berechtigten Interesses an einer ansprechenden und visuellen Präsentation unserer Vereinsaktivitäten gemäß Art. 6 Abs. 1 lit. f DSGVO.
+
+## 7. Verlinkungen und Vorschaukarten zu Instagram
+
+Auf unserer Website verlinken wir auf unseren Auftritt bei **Instagram** (Meta Platforms Ireland Limited, 4 Grand Canal Square, Grand Canal Harbour, Dublin 2, Irland).
+
+Wir verwenden für Instagram-Inhalte standardmäßig datenschutzfreundliche Vorschaukarten (`mode="card"`). Hierbei handelt es sich um reine Verlinkungen. Es werden **keine** automatischen Datenübertragungen an Instagram/Meta ausgelöst, solange Sie nicht aktiv auf die Schaltfläche klicken, um den Beitrag auf Instagram zu öffnen.
+
+Sollten Sie ein eingebettetes Instagram-Widget aufrufen, stellt Ihr Browser eine Verbindung zu den Servern von Meta her, wobei Ihre IP-Adresse übermittelt wird.
+
+Weitere Informationen finden Sie in der Datenschutzerklärung von Instagram: [https://privacycenter.instagram.com/policy](https://privacycenter.instagram.com/policy)
+
+## 8. Ihre Rechte
 
 Sie haben jederzeit das Recht:
 

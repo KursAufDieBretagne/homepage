@@ -1,0 +1,62 @@
+{{/* Instagram Post Embed & Preview Shortcode */}}
+{{ $id := .Get "id" | default (.Get 0) }}
+{{ $url := .Get "url" }}
+{{ $title := .Get "title" | default (.Get 1) }}
+{{ $caption := .Get "caption" }}
+{{ $image := .Get "image" | default (.Get "src") }}
+{{ $mode := .Get "mode" | default "embed" }}
+
+{{/* Extract post shortcode ID if full URL is given */}}
+{{ if and $url (not $id) }}
+  {{ $id = $url }}
+{{ end }}
+{{ if strings.Contains $id "instagram.com/p/" }}
+  {{ $id = index (last 1 (split $id "instagram.com/p/")) 0 }}
+  {{ $id = index (split $id "/") 0 }}
+  {{ $id = index (split $id "?") 0 }}
+{{ else if strings.Contains $id "instagram.com/reel/" }}
+  {{ $id = index (last 1 (split $id "instagram.com/reel/")) 0 }}
+  {{ $id = index (split $id "/") 0 }}
+  {{ $id = index (split $id "?") 0 }}
+{{ end }}
+
+{{ $postUrl := printf "https://www.instagram.com/p/%s/" $id }}
+
+<figure class="impressionen-instagram-card">
+  {{ if eq $mode "embed" }}
+  <div class="instagram-embed-responsive">
+    <iframe
+      src="https://www.instagram.com/p/{{ $id }}/embed"
+      title="{{ $title | default "Instagram Beitrag" }}"
+      frameborder="0"
+      scrolling="no"
+      allowtransparency="true"
+      loading="lazy">
+    </iframe>
+  </div>
+  {{ else }}
+  {{/* Card / Privacy Mode with thumbnail */}}
+  {{ if $image }}
+  <div class="impressionen-photo-wrapper">
+    <a href="{{ $postUrl }}" target="_blank" rel="noopener noreferrer">
+      <img src="{{ $image | relURL }}" alt="{{ $title | default "Instagram Post" }}" loading="lazy" class="impressionen-img" />
+    </a>
+  </div>
+  {{ end }}
+  {{ end }}
+
+  <figcaption class="impressionen-caption instagram-caption">
+    <div class="instagram-header">
+      <svg class="instagram-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+        <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+      </svg>
+      <strong>{{ $title | default "Auf Instagram ansehen" }}</strong>
+    </div>
+    {{ if $caption }}<p class="instagram-text">{{ $caption }}</p>{{ end }}
+    <a href="{{ $postUrl }}" target="_blank" rel="noopener noreferrer" class="instagram-link-btn">
+      Beitrag auf Instagram öffnen &rarr;
+    </a>
+  </figcaption>
+</figure>

@@ -32,9 +32,9 @@ defaultContentLanguage = "de"
   weight = 1
 
 [[languages.de.menu.main]]
-  name = "Über uns"
-  url = "/about/"
-  weight = 4
+  name = "Aktuelles"
+  url = "/blog/"
+  weight = 2
 
 [[languages.de.menu.main]]
   name = "Termine"
@@ -42,19 +42,24 @@ defaultContentLanguage = "de"
   weight = 3
 
 [[languages.de.menu.main]]
-  name = "Kontakt"
-  url = "/kontakt/"
+  name = "Über uns"
+  url = "/about/"
+  weight = 4
+
+[[languages.de.menu.main]]
+  name = "Impressionen"
+  url = "/impressionen/"
+  weight = 5
+
+[[languages.de.menu.main]]
+  name = "Links"
+  url = "/links/"
   weight = 6
 
 [[languages.de.menu.main]]
-    name = "Links"
-    url = "/links/"
-    weight = 5
-
-[[languages.de.menu.main]]
-    name = "Aktuelles"
-    url = "/blog/"
-    weight = 2
+  name = "Kontakt"
+  url = "/kontakt/"
+  weight = 7
 
 
 # --- FRANZÖSISCH ---
@@ -75,29 +80,34 @@ defaultContentLanguage = "de"
   weight = 1
 
 [[languages.fr.menu.main]]
-  name = "À propos"
-  url = "/fr/about/"
-  weight = 3
+  name = "Actualités"
+  url = "/fr/blog/"
+  weight = 2
 
 [[languages.fr.menu.main]]
   name = "Événements"
   url = "/fr/events/"
-  weight = 2
+  weight = 3
 
 [[languages.fr.menu.main]]
-  name = "Contact"
-  url = "/fr/kontakt/"
-  weight = 6
+  name = "À propos"
+  url = "/fr/about/"
+  weight = 4
+
+[[languages.fr.menu.main]]
+  name = "Impressions"
+  url = "/fr/impressionen/"
+  weight = 5
 
 [[languages.fr.menu.main]]
   name = "Liens"
   url = "/fr/links/"
-  weight = 5
+  weight = 6
 
-  [[languages.fr.menu.main]]
-  name = "Actualités"
-  url = "/fr/blog/"
-  weight = 2
+[[languages.fr.menu.main]]
+  name = "Contact"
+  url = "/fr/kontakt/"
+  weight = 7
 
 # ---- FOOTER ----
 

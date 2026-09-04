@@ -1,0 +1,18 @@
+{{/* Photo / Image Card Shortcode */}}
+{{ $src := .Get "src" | default (.Get 0) }}
+{{ $alt := .Get "alt" | default (.Get 1) | default "Impressionen Bild" }}
+{{ $caption := .Get "caption" }}
+{{ $title := .Get "title" }}
+
+<figure class="impressionen-photo-card">
+  <div class="impressionen-photo-wrapper">
+    <img src="{{ $src | relURL }}" alt="{{ $alt }}" loading="lazy" class="impressionen-img" />
+  </div>
+  {{ if or $title $caption }}
+  <figcaption class="impressionen-caption">
+    {{ if $title }}<strong>{{ $title }}</strong>{{ end }}
+    {{ if and $title $caption }} — {{ end }}
+    {{ if $caption }}<span>{{ $caption }}</span>{{ end }}
+  </figcaption>
+  {{ end }}
+</figure>

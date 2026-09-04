@@ -13,6 +13,6 @@ Die Veranstaltung läuft unter dem Titel: "Die Bretagne, ein Sehnsuchtsort und S
 Es sind geplant: 
 
 1. Moderierte Bilderserie über Sehenswürdigkeiten in der Bretagne, auch abseits der großen touristischen Highlights
-2. Bericht über Erlebnisse vom Schüleraustausch nach Saint-Malo von Schülern des Hansa-Gymnasium Stralsund
-3. Offene Gesprächsrunde über Erfahrungen, Erlebnisse und mehr
+
+2. Offene Gesprächsrunde über Erfahrungen, Erlebnisse und mehr
 

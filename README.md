@@ -22,15 +22,20 @@ homepage/
     ├── config.toml               # Seiteneinstellungen, Menüs, Sprachen
     ├── archetypes/               # Vorlagen für neue Inhalte
     │   ├── default.md            # Standardvorlage (Blogposts)
-    │   └── events.md             # Vorlage für Termine
+    │   ├── events.md             # Vorlage für Termine
+    │   └── impressionen.md       # Vorlage für Impressionen (Galerie & Videos)
     ├── content/
-    │   ├── de/                   # Deutschen Inhalte
+    │   ├── de/                   # Deutsche Inhalte
     │   │   ├── blog/             # Blogbeiträge (Aktuelles)
-    │   │   └── events/           # Termine
+    │   │   ├── events/           # Termine
+    │   │   └── impressionen/     # Fotos & YouTube-Videos
     │   └── fr/                   # Französische Inhalte
     │       ├── blog/
-    │       └── events/
-    ├── static/                   # Bilder, CSS, statische Dateien
+    │       ├── events/
+    │       └── impressionen/
+    ├── layouts/
+    │   └── shortcodes/           # Custom Shortcodes (youtube, gallery, photo, ...)
+    ├── static/                   # Bilder (img/), CSS, statische Dateien
     └── themes/                   # Hugo-Themes (als Submodule)
 ```
 
@@ -160,6 +165,44 @@ Ausführliche Informationen zum Ablauf, Programm, Anmeldung etc.
 | `eventDate` | **Tatsächliches Datum des Events** (ISO 8601: `YYYY-MM-DDTHH:MM:SS`) |
 | `location` | Veranstaltungsort |
 | `translationKey` | Verknüpft mit der französischen Version des Termins |
+
+---
+
+### Impressionen (Fotos & YouTube-Videos) erstellen
+
+Impressionen erscheinen unter dem Hauptmenüpunkt **„Impressionen"** (bzw. „Impressions").
+
+**Neuen Impressionen-Beitrag mit Hugo CLI erstellen:**
+
+```bash
+cd verein-website
+hugo new --kind impressionen content/de/impressionen/mein-event.md
+```
+
+**Custom Shortcodes für Medien:**
+
+1. **Galerie-Grid (`gallery`):**
+   ```markdown
+   {{< gallery cols="2" >}}
+   ... Medien-Shortcodes ...
+   {{< /gallery >}}
+   ```
+
+2. **YouTube-Video einbinden (`youtube`):** (DSGVO-konform via `youtube-nocookie.com`)
+   ```markdown
+   {{< youtube id="YOUTUBE_VIDEO_ID_ODER_URL" title="Video Titel" caption="Kurze Beschreibung" >}}
+   ```
+
+3. **Foto-Karte einbinden (`photo`):**
+   ```markdown
+   {{< photo src="/img/impressionen/mein-bild.jpg" title="Foto Titel" caption="Kurze Beschreibung" >}}
+   ```
+
+4. **Instagram-Beitrag einbinden (`instagram`):**
+   ```markdown
+   {{< instagram url="https://www.instagram.com/p/BEITRAGS_ID/" title="Instagram Titel" caption="Kurze Beschreibung" mode="card" image="/img/impressionen/preview.jpg" >}}
+   ```
+   *Optionen:* `mode="embed"` für ein direktes Embed-Iframe oder `mode="card"` (empfohlen für DSGVO-Freiheit mit Vorschaubild und direktem Link zum Instagram-Profil/Beitrag).
 
 ---
 

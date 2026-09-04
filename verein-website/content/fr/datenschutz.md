@@ -47,7 +47,23 @@ Vous trouverez de plus amples informations dans la politique de confidentialité
 
 Ce site web n'utilise **aucun** cookie de suivi, outil d'analyse (tel que Google Analytics) ou plugin de réseau social qui enregistre votre comportement de navigation.
 
-## 5. Vos droits
+## 5. Vidéos YouTube intégrées (mode de confidentialité avancé)
+
+Sur notre site web, nous intégrons des vidéos de la plateforme **YouTube** du fournisseur **Google Ireland Limited** (Gordon House, Barrow Street, Dublin 4, Irlande).
+
+Nous utilisons le **mode de confidentialité avancé** fourni par YouTube (`youtube-nocookie.com`). Selon YouTube, dans ce mode, les cookies ne sont enregistrés sur votre appareil ou les données ne sont collectées que lorsque vous lisez activement une vidéo. Lors de la simple consultation d'une page contenant une vidéo intégrée, votre adresse IP est transmise à Google pour fournir l'image d'aperçu.
+
+Pour plus d'informations sur la protection des données chez YouTube/Google, veuillez consulter : [https://policies.google.com/privacy](https://policies.google.com/privacy)
+
+## 6. Liens et aperçus Instagram
+
+Sur notre site web, nous proposons des liens vers notre présence sur **Instagram** (Meta Platforms Ireland Limited, 4 Grand Canal Square, Grand Canal Harbour, Dublin 2, Irlande).
+
+Nous utilisons par défaut des cartes d'aperçu respectueuses de la vie privée (`mode="card"`). Il s'agit de simples liens hypertexte. Aucune donnée n'est automatiquement transmise à Instagram/Meta tant que vous ne cliquez pas activement sur le bouton pour ouvrir la publication sur Instagram.
+
+Pour plus d'informations, veuillez consulter la politique de confidentialité d'Instagram : [https://privacycenter.instagram.com/policy](https://privacycenter.instagram.com/policy)
+
+## 7. Vos droits
 
 Vous avez à tout moment le droit :
 
